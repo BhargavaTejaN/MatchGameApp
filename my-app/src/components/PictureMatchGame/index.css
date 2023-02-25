@@ -1,0 +1,110 @@
+.app-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-bg.png");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.conatiner-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs-list {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    margin-top: 32px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .tabs-list {
+      margin-top: 48px;
+    }
+  }
+
+  .image-container{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .img-display{
+    width: 35%;
+    border-radius: 10px;
+  }
+
+  .pictures-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .game-over-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .back-ground-img{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png");
+    background-size: cover;
+    width: 550px;
+    height: 630px;
+  }
+
+  .trophy{
+    width: 80%;
+    padding-left: 120px;
+    padding-top: 210px;
+  }
+
+  .your-score{
+    margin-left: 230px;
+    color: aliceblue;
+    font-family: "Roboto";
+    font-size: 25px;
+  }
+
+  .score{
+    margin-left: 270px;
+    color: aliceblue;
+    font-family: "Roboto";
+    font-size: 25px;
+    padding-top: 0xp;
+  }
+
+  .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .reset-img-logo{
+    width: 20px;
+  }
+
+  .button{
+    cursor: pointer;
+    background-color: #cf60c8;
+    width: 18ox;
+    height: 50px;
+    border: 0px;
+    padding: 10px;
+    padding-bottom: 10px;
+    color: antiquewhite;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-bottom: 10px;
+
+  }

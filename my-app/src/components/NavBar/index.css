@@ -1,0 +1,55 @@
+.nav-bar-container {
+    display: flex;
+    background-color: #2c0e3a;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+
+  .title-with-score-container {
+    display: flex;
+    flex-basis: 80%;
+    justify-content: space-between;
+    max-width: 1000px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .website-logo {
+    width: 24px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .website-logo {
+      width: 280px;
+      height: 60px;
+      padding-right: 40px;
+    }
+  }
+
+  .scores-container{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .score{
+    padding-right: 30px;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+  }
+
+  .timer-logo{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+
+  .timer{
+    padding-right: 20px;
+    font-family: "Roboto";
+    color: #fec653;
+    font-size: 20px;
+    padding-top: 8px;
+  }
